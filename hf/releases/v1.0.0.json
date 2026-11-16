@@ -1,7 +1,14 @@
 {
   "version": "1.0.0",
   "date": "2026-11-16",
-  "status": "prepared; not uploaded",
+  "status": "published",
+  "published": {
+    "at": "2026-11-16",
+    "hf_url": "https://huggingface.co/datasets/semantique-team/moth-cs",
+    "hf_revision": "v1.0.0",
+    "hf_data_commit": "1d8865b384f9bb4b40b2809beb78a046890ef673",
+    "visibility": "public"
+  },
   "source_repo": "semantique-team/moth-stt",
   "source_commit": "f3ecd1b0f4f0c5c044fa637e5fb5dd8a0c798d97",
   "model_release": "0.8.1",

@@ -17,6 +17,14 @@ ROOT = Path(__file__).resolve().parent.parent
 VERSION = "1.0.0"
 SOURCE_COMMIT = "f3ecd1b0f4f0c5c044fa637e5fb5dd8a0c798d97"
 MANIFESTS = ("train.jsonl", "test.jsonl", "anchor.jsonl", "all.jsonl", "excluded.jsonl", "stats.json")
+PUBLISHED = {
+    "at": "2026-11-16",
+    "hf_url": "https://huggingface.co/datasets/semantique-team/moth-cs",
+    "hf_revision": "v1.0.0",
+    "hf_data_commit": "1d8865b384f9bb4b40b2809beb78a046890ef673",
+    "visibility": "public",
+}
+
 HEADER_FIX = {
     "file": "audio/R-S2/S2/S2_0624.wav",
     "issue": "RIFF and data chunk sizes were 0xFFFFFFFF (ffmpeg streaming header)",
@@ -46,7 +54,8 @@ def main() -> int:
     record = {
         "version": VERSION,
         "date": date.today().isoformat(),
-        "status": "prepared; not uploaded",
+        "status": "published" if PUBLISHED else "prepared; not uploaded",
+        "published": PUBLISHED,
         "source_repo": "semantique-team/moth-stt",
         "source_commit": SOURCE_COMMIT,
         "model_release": "0.8.1",
