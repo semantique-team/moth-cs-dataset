@@ -1,0 +1,15 @@
+# Audio is distributed through Hugging Face / Zenodo, not git.
+audio/
+hf/data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/

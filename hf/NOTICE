@@ -1,0 +1,32 @@
+Moth Italian–English Code-Switching Speech Dataset
+Copyright 2026 Semantique Team
+
+Audio and transcripts
+---------------------
+The audio recordings and the transcripts in this repository are licensed under
+the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+See LICENSE-CC-BY-4.0.txt.
+
+Code
+----
+The Python scripts in scripts/ are licensed under the Apache License 2.0.
+They are derived from the moth-stt repository:
+https://github.com/semantique-team/moth-stt
+See LICENSE-APACHE-2.0.
+
+Sentence scripts
+----------------
+The sentence texts in text/ were generated with LLM assistance, imported,
+deduplicated and human-reviewed by the authors. They contain no third-party
+text. The generator and date are recorded in the source candidate files where
+available; the published manifests do not carry per-row generator metadata.
+
+No model weights
+----------------
+This dataset contains no Whisper, Silero or Moth model weights. The companion
+model is distributed separately at:
+https://huggingface.co/semantique-team/moth-stt
+
+Citation
+--------
+See CITATION.cff and DATA_CARD.md.

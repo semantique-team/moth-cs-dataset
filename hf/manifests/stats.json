@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "built_from_commit": "f3ecd1b0f4f0c5c044fa637e5fb5dd8a0c798d97",
+  "sets": {
+    "T": {
+      "clips": 600,
+      "speakers": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "seconds": 1390.227,
+      "hours": 0.3862
+    },
+    "R-S1": {
+      "clips": 741,
+      "speakers": [
+        "S1"
+      ],
+      "seconds": 2095.801,
+      "hours": 0.5822
+    },
+    "R-S2": {
+      "clips": 672,
+      "speakers": [
+        "S2"
+      ],
+      "seconds": 1361.987,
+      "hours": 0.3783
+    },
+    "A": {
+      "clips": 180,
+      "speakers": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "seconds": 422.897,
+      "hours": 0.1175
+    }
+  },
+  "total": {
+    "clips": 2193,
+    "seconds": 5270.912,
+    "hours": 1.4641
+  },
+  "speakers": {
+    "S1": {
+      "clips": 1001,
+      "seconds": 2732.149,
+      "hours": 0.7589
+    },
+    "S2": {
+      "clips": 932,
+      "seconds": 1952.182,
+      "hours": 0.5423
+    },
+    "S3": {
+      "clips": 260,
+      "seconds": 586.581,
+      "hours": 0.1629
+    }
+  },
+  "excluded_files": 16
+}

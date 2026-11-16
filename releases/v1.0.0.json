@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-16",
+  "status": "prepared; not uploaded",
+  "source_repo": "semantique-team/moth-stt",
+  "source_commit": "f3ecd1b0f4f0c5c044fa637e5fb5dd8a0c798d97",
+  "model_release": "0.8.1",
+  "hf_repo": "semantique-team/moth-cs",
+  "github_repo": "semantique-team/moth-cs-dataset",
+  "zenodo_doi": null,
+  "license": {
+    "audio": "CC-BY-4.0",
+    "transcripts": "CC-BY-4.0",
+    "code": "Apache-2.0"
+  },
+  "consent": {
+    "option": "A (CC-BY-4.0)",
+    "speakers": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "confirmed": "2026-11-16",
+    "signed_forms": "offline, not in the repository"
+  },
+  "counts": {
+    "version": "1.0.0",
+    "built_from_commit": "f3ecd1b0f4f0c5c044fa637e5fb5dd8a0c798d97",
+    "sets": {
+      "T": {
+        "clips": 600,
+        "speakers": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "seconds": 1390.227,
+        "hours": 0.3862
+      },
+      "R-S1": {
+        "clips": 741,
+        "speakers": [
+          "S1"
+        ],
+        "seconds": 2095.801,
+        "hours": 0.5822
+      },
+      "R-S2": {
+        "clips": 672,
+        "speakers": [
+          "S2"
+        ],
+        "seconds": 1361.987,
+        "hours": 0.3783
+      },
+      "A": {
+        "clips": 180,
+        "speakers": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "seconds": 422.897,
+        "hours": 0.1175
+      }
+    },
+    "total": {
+      "clips": 2193,
+      "seconds": 5270.912,
+      "hours": 1.4641
+    },
+    "speakers": {
+      "S1": {
+        "clips": 1001,
+        "seconds": 2732.149,
+        "hours": 0.7589
+      },
+      "S2": {
+        "clips": 932,
+        "seconds": 1952.182,
+        "hours": 0.5423
+      },
+      "S3": {
+        "clips": 260,
+        "seconds": 586.581,
+        "hours": 0.1629
+      }
+    },
+    "excluded_files": 16
+  },
+  "audio_files": 2193,
+  "audio_bytes": 506178528,
+  "hf_parquet_files": 3,
+  "hf_parquet_bytes": 447031734,
+  "manifests_sha256": {
+    "train.jsonl": "43eb2f3f6ffcec157f7caf8e254d098bd866b8979042bae5a96085f4e6ccd47a",
+    "test.jsonl": "f9147c852799b22b864a9792060dfec2515ced7a8c530933307daaf8ad56d3e5",
+    "anchor.jsonl": "16de84aaf06028325994c23b7306943fe2fd45191ac5d41bea37f93dfc5617e0",
+    "all.jsonl": "67cdeef808a4b9ae871fef14da78449a7766af33ecd2af2188af7e9a72cd039c",
+    "excluded.jsonl": "924a7312a3073b372bcfae9850811cfcaaefd9f2dd6982c83186b0974eba7b8d",
+    "stats.json": "dad17ec67c948d54cead22b75c65854e79bb27f4a628078699c6dd3072b39161"
+  },
+  "sha256sums_sha256": "49ac2e464f01001312bd1519e7b75609c73cf5b2a313b5dff7f7b5156c08b544",
+  "header_fix": {
+    "file": "audio/R-S2/S2/S2_0624.wav",
+    "issue": "RIFF and data chunk sizes were 0xFFFFFFFF (ffmpeg streaming header)",
+    "original_sha256": "d747fd0d5ce62dfe9b06ed72bb59d1f8b98ee0351f00ae8cb26c056f86a98ce8",
+    "repaired_sha256": "811cc8e142b6a931f2a500fcaa94c1a6a963109d260d50469e89db5147339d58",
+    "samples_touched": false
+  },
+  "notes": [
+    "16 files excluded and documented in manifests/excluded.jsonl.",
+    "S3 never contributes to train; S3 informed development and is not a pristine holdout.",
+    "Devices were not logged for every session; do not infer them.",
+    "No S2 session log is present (T, R-S2, anchor); the addendum builder report is the only S2 record.",
+    "CC-BY-4.0 does not encode the speakers' no-TTS request; see docs/consent.md."
+  ]
+}

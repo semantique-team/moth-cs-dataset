@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it together with the Moth model and paper."
+type: dataset
+title: "Moth Italian–English Code-Switching Speech Dataset"
+abstract: >-
+  Scripted Italian speech with English words and phrases mixed in, recorded by
+  three speakers for the Moth speech recognizer. 2,193 utterances, 1.46 hours,
+  48 kHz mono WAV, with normalised transcripts, English word spans, categories
+  and train/test/anchor splits.
+authors:
+  - family-names: Bosi
+    given-names: Tancredi
+  - family-names: Zanolli
+    given-names: Roberto
+  - name: "Semantique Team"
+version: 1.0.0
+date-released: 2026-11-16
+license: CC-BY-4.0
+url: "https://huggingface.co/datasets/semantique-team/moth-cs"
+keywords:
+  - speech recognition
+  - code-switching
+  - Italian
+  - English
+  - speech dataset
+  - Whisper
+  - CTC
